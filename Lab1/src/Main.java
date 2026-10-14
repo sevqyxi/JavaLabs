@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         String text = "cat dog pasta october rust peter steele type o negative";
+
         String[] words = text.split(" ");
         String[] result = new String[words.length];
         int count = 0;
